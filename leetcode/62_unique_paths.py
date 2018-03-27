@@ -1,10 +1,12 @@
 class Solution:
+    # This solution uses only O(mn) memory
     def uniquePaths(self, m, n):
         """
         :type m: int
         :type n: int
         :rtype: int
         """
+        # To prevent confusion
         y = m
         x = n
         matrix = [[0 for i in range(x)] for j in range(y)]
